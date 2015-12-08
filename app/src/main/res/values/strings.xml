@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Remember Batman…</string>
+    <string name="button_text">Tell A Joke</string>
+    <string name="source">Joke Source</string>
+
+    <string name="dialog_title">Joke Provider</string>
+
+    <string name="dialog_button_ok">Got it!</string>
+    <string name="dialog_button_copy_url">Copy URL</string>
+
+    <string name="dialog_text_domain">Domain</string>
+    <string name="dialog_text_url">URL</string>
+    <string name="dialog_text_notes">Notes</string>
+    <string name="dialog_text_template" translatable="false">
+        <![CDATA[
+        <b>%1$s:</b> %2$s
+        <br><br>
+        <b>%3$s:</b><br>%4$s
+        <br><br>
+        <b>%5$s:</b><br>%6$s
+        ]]>
+    </string>
+
+    <string name="dialog_note">Modified several jokes for minor grammatical errors.</string>
+
+    <string name="dialog_clipboard_copied_title">Joke Provider URL</string>
+    <string name="dialog_clipboard_copied_message">Copied URL to Clipboard</string>
+
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

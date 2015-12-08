@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">배트맨을 기억…</string>
+    <string name="button_text">농담을 말하다</string>
+
+    <string name="source">농담출처</string>
+
+    <string name="dialog_title">농담제공자</string>
+
+    <string name="dialog_button_ok">알겠어요</string>
+    <string name="dialog_button_copy_url">URL 복사</string>
+
+    <string name="dialog_text_domain">도메인</string>
+    <string name="dialog_text_url">URL</string>
+    <string name="dialog_text_notes">알리다</string>
+
+    <string name="dialog_note">사소한 문법수정 오류에 관한 농담. 장은혜에 의해 번역.</string>
+
+    <string name="dialog_clipboard_copied_title">농담제공자 URL</string>
+    <string name="dialog_clipboard_copied_message">클립보드에 URL을복사</string>
+
+</resources>

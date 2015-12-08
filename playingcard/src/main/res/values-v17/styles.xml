@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="JokerCard.Image">
+        <item name="layout_heightPercent">20%</item>
+        <item name="layout_aspectRatio">100%</item>
+        <item name="layout_marginPercent">4.02%</item>
+        <item name="layout_marginStartPercent">6.5%</item>
+        <item name="layout_marginEndPercent">6.5%</item>
+    </style>
+
+    <style name="JokerCard.Image.Top">
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="JokerCard.Image.Bottom">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>

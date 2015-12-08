@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="JokerCard" parent="CardView">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="layout_heightPercent">95%</item>
+        <item name="layout_aspectRatio">61.8034%</item>
+        <item name="cardCornerRadius">4dp</item>
+    </style>
+
+    <style name="JokerCard.Image">
+        <item name="layout_heightPercent">20%</item>
+        <item name="layout_aspectRatio">100%</item>
+        <item name="layout_marginLeftPercent">6.5%</item>
+        <item name="layout_marginRightPercent">6.5%</item>
+        <item name="layout_marginPercent">4%</item>
+    </style>
+
+    <style name="JokerCard.Text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="JokerCard.Image.Top">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="JokerCard.Image.Bottom">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="JokerCard.Text.Joke">
+        <item name="android:textSize">@dimen/jokercard_joke_textsize</item>
+        <item name="layout_marginPercent">6.5%</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
+

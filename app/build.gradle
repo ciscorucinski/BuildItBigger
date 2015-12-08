@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.udacity.gradle.builditbigger"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    // 1st & 2nd Party dependencies
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':jokerandom')
+    compile project(':playingcard')
+    compile project(':magictrick')
+    compile project(path: ':backends', configuration: 'android-endpoints')
+
+    // 3rd Party dependencies
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:multidex:1.0.1'
+
+    // Free dependencies only
+//    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
+//    compile 'com.google.android.gms:play-services-auth:8.3.0'
+//    compile 'com.google.android.gms:play-services-gcm:8.3.0'
+//    freeCompile 'com.google.android.gms:play-services-ads:8.3.0'
+
+//    // Paid dependencies only
+//    // None
+//    // Test Dependencies
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile 'junit:junit-dep:4.11'
+    androidTestCompile('com.android.support.test:runner:0.2') {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestCompile('com.android.support.test:rules:0.2') {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}
